@@ -3,10 +3,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
-.header-menu{
-  float: right;
-
+.header-menu {
+	float: right;
+	margin-right: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 .main-menu ul{
     list-style: none;
@@ -20,5 +21,25 @@ body{
 .main-menu ul li a {
 	display: block;
 	margin-left: 20px;
-	text-decoration: none;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #3C3C3C;
+}
+.two-part-section {
+    clear: both;
+    /* স্যার আমি এটা অনেক কষ্ট করে গুগল সার্চচ করে বের করেছি। */
+}
+.section-part{
+    width: 45%;
+    float: left;
+}
+.section-part h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #363958;
+}
+.section-part h1 span{
+    color: #FF8367;
+    display: block;
 }
