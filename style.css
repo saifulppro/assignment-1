@@ -1,0 +1,24 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header-menu{
+  float: right;
+
+}
+.main-menu ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.main-menu ul li{
+    float: left;
+}
+.main-menu ul li a {
+	display: block;
+	margin-left: 20px;
+	text-decoration: none;
+}
